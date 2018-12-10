@@ -30,28 +30,28 @@ But unfortunately, there is currently no cure for asthma. Newer therapies are on
 
 ![asthma](https://github.com/miko-798/BENG_183_mini_lecture/blob/master/asthma.png)
 
-> Thus we need to better understanding of the disease at a molecular level.
+Thus we need a better understanding of the disease at a molecular level.
 
 #### 2) A precision medicine study on asthma 
 
 The figure below shows how scientists split the asthma patients into 4 subgroups. 
 
-They took into account 8 parameters were correlated with their disease and the severity, and did a partition-around-medoids clustering.
+They took into account 8 parameters obtained from patients that were correlated with their disease and the severity, and did a partition-around-medoids clustering.
 
 ![subgroups](https://github.com/miko-798/BENG_183_mini_lecture/blob/master/subgroups.png)
 
-In the study, *Transcriptional profiling of Th2 cells identifies pathogenic features associated with asthma*, the researchers performed RNA-Seq in Th2 cells from a total of 80 samples from 77 patients including 3 biological replicates.
+In the study, *Transcriptional profiling of Th2 cells identifies pathogenic features associated with asthma*, the researchers performed RNA-Seq on Th2 cells from a total of 80 samples from 77 patients, including 3 biological replicates.
 
-Then they did RNA-Seq analysis to identify genes differentially expressed between allergic asthma, rhinitis & healthy control groups, by performing negative binomial tests for pairwise comparisons employing the Bioconductor package DESeq2.
+Then they did RNA-Seq analysis to identify genes differentially expressed between allergic asthma, rhinitis and healthy control groups, by performing negative binomial tests for pairwise comparisons employing the Bioconductor package DESeq2.
 
-These are the findings:
+They found the following:
 
-- Identified a total of 15 distinct gene modules 
-- DESeq analysis found 500 genes differentially expressed between asthmatic subjects and healthy subjects (Genes for apoptosis, zinc transporters, MAPK, NF-κB, TNF)
-- Expression of most of these genes was similar between rhinitis and asthma
-- Genes that differentiate asthmatic from healthy subjects show an intermediate phenotype in allergic rhinitis subjects
+- They identified a total of 15 distinct gene modules.
+- DESeq analysis found 500 genes differentially expressed between asthmatic subjects and healthy subjects (Genes for apoptosis, zinc transporters, MAPK, NF-κB, TNF).
+- The expression of most of these genes was similar between rhinitis and asthma.
+- Genes that differentiate asthmatic from healthy subjects show an intermediate phenotype in allergic rhinitis subjects.
 
-> These genetic markers identified through this study could offer insights for personalized medicine for asthma patients.
+These genetic markers identified through this study could offer insights for personalized medicine for asthma patients.
 
 ## 3. Current Hot Topics on Precision Medicine
 
@@ -61,24 +61,24 @@ These are the findings:
 
 Atul Butte, a Distinguished Professor and the Director of the Computational Health Sciences Institute at UCSF, constructed a map illustrating how each individual patient developed different subtypes of diseases and how these diseases lead to mortality. 
 
-Here is the map showing the paths of each patient:
+Here is the map showing the paths for each patient:
 
 Each square and circle represent a certain subtype of disease, and each line represents a transition. 
 
 ![map](https://github.com/miko-798/BENG_183_mini_lecture/blob/master/map.png)
 
-This map offers physicians and scientists possible patterns of disease progression, which can help guide the treatments for future patients. This is one way to *build prediction models for clinical events based on electronic medical record (EMR) data*. The amount of detailed information encompassed by this map is powerful and grants possibility for precision care for patients.
+This map offers physicians and scientists possible patterns of disease progression, which can help guide the treatments for future patients. Clearly, this is one way to *build prediction models for clinical events based on electronic medical record (EMR) data*. The amount of detailed information encompassed by this map is powerful and grants possibility for precision care for patients.
  
 > Let's look at another application of precision medicine.
 
 #### 2) Opening the black box of machine learning models
 
-Su-In Lee, an Associate Professor at Paul G. Allen School of Computer Science & Engineering at UW, found weaknesses in the conventional way to identify molecular markers. She tries to interpret the complex machine learning models that are used to analyze patient data, and strives to offer Individualized explanations for a particular prediction and for a particular patient. 
+Su-In Lee, an Associate Professor at Paul G. Allen School of Computer Science & Engineering at UW, found weaknesses in the conventional way to identify molecular markers. She tries to interpret the complex machine learning models that are used to analyze patient data, and strives to offer individualized explanations for a particular prediction, and for a particular patient. 
 
 ![su-in lee](https://github.com/miko-798/BENG_183_mini_lecture/blob/master/su-in%20lee.png)
 
 
-> These are both very interesting and cutting edge research efforts in the field of precision medicine. So what's next in precision medicine? Well, let's keep in mind the three things that scientists need to address (at the beginning of chapter), and we all have the possibility of making what's next.
+> These are both very interesting and cutting edge research efforts in the field of precision medicine. So what's next in precision medicine? Well, let's keep in mind the three things that scientists need to address (at the beginning of chapter), and that we all have the possibility of making what's next.
 
 
 ## References:
