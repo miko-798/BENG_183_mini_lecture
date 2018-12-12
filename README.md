@@ -7,7 +7,15 @@
 ##### 3. Current Hot Topics on Precision Medicine
 
 ## 1. Introduction to Precision Medicine
-Definition of Precision Medicine: Tailoring of medical treatment to the individual characteristics of each patient, especially by using genetic or molecular profiling.
+Definition of Precision Medicine (by Dr. Su-In Lee): Tailoring of medical treatment to the individual characteristics of each patient, especially by using genetic or molecular profiling.
+
+In other words, precision medicine should account for personal variations in genomic sequence and environmental exposure.
+
+> Here is a story of how scientists used precision medicine to treat breast cancer.
+
+In the old paradigm, cancer treatments are usually distinguished by cancer types: lung cancer, 
+
+
 
 To advance the field, current genomics and machine learning researchers need to address:
 
