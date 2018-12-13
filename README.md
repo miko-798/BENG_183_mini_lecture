@@ -18,7 +18,7 @@ In the old paradigm, cancer types are usually distinguished by the origin of tum
 However, tumors with the same origin may be different in appearance and behavior, aggressiveness, and vulnerability. Thus we need to treat each kind of tumor differently.
 
 The early treatment of breast cancer in the 1970s:
-- All patients undergo removal of ovaries: The assumption was, no estrogen, no growth of tumor.
+- All patients underwent removal of ovaries: The assumption was, no estrogen, no growth of tumor.
 - It only helped around 70% of patients with ER+ tumor.
 - But how tumor cells are built matters: For example, markers on tumor cell surface and growth circuits can lead to different tumor progression.
 
@@ -35,11 +35,11 @@ Mid-1990s findings:
 - 5% of breast cancers have inherited defect in gene BRCA1 or BRCA2.
 - No preventive treatment, but can screen for such inborn defect and watch for tumor formation closely.
 
-Fortunately, the treatments using anti-estrogen agent or Herceptin can be effective to around 85% of the breast cancer patients. This improvement in cancer therapy is largely contributed to the effort to split the patients into different subgroups, then treat each subgroup on its own based on its distinct characteristics. That is the core of precision medicine. We will see how scientists implement this "splitting" in the next section as well.
+Fortunately, the treatments using anti-estrogen agent or Herceptin can be effective for around 85% of the breast cancer patients. This improvement in cancer therapy is largely contributed to the effort to split the patients into different subgroups, then treat each subgroup on its own based on its distinct characteristics. That is the core of precision medicine. We will see how scientists implement this "splitting" in the next section as well.
 
 Note that the 5% of breast cancer with inherited defect in gene BRCA1 or BRCA2, are categoried as Triple Negative Breast Cancer (TNBC). This type of breast cancer does not express the genes for estrogen receptor (ER), progesterone receptor (PR) and HER2. And it is still in need of an effective treatment.
 
-To advance the field of precision medicine, current genomics and machine learning researchers need to address:
+In order to develop personalized treatment and advance the field of precision medicine, current genomics and machine learning researchers need to address:
 
 - identifying genetic or molecular markers for clinical phenotypes
 - discovering disease subtypes from genetic and/or molecular data
