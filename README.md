@@ -13,11 +13,33 @@ In other words, precision medicine should account for personal variations in gen
 
 > Here is a story of how scientists used precision medicine to treat breast cancer.
 
-In the old paradigm, cancer treatments are usually distinguished by cancer types: lung cancer, 
+In the old paradigm, cancer types are usually distinguished by the origin of tumors. For example, lung cancer, liver cancer, breast cancer.
 
+However, tumors with the same origin may be different in appearance and behavior, aggressiveness, and vulnerability. Thus we need to treat each kind of tumor differently.
 
+The early treatment of breast cancer in the 1970s:
+- All patients undergo removal of ovaries: The assumption was, no estrogen, no growth of tumor.
+- It only helped around 70% of patients with ER+ tumor.
+- But how tumor cells are built matters: For example, markers on tumor cell surface and growth circuits can lead to different tumor progression.
 
-To advance the field, current genomics and machine learning researchers need to address:
+Then a discovery in 1970 found that:
+- 70% of breast cancer are ER (estrogen-receptor) positive.
+- These patients can be treated with anti-estrogen agent to block cancer growth.
+> A much better treatment, but what about the remaining 30% of the patients?
+ 
+1984 discovery:
+- 20% of breast cancers have abnormal HER-2 gene expression.
+- A new drug, Herceptin, was developed to inhibit the function of this protein.
+
+Mid-1990s findings:
+- 5% of breast cancers have inherited defect in gene BRCA1 or BRCA2.
+- No preventive treatment, but can screen for such inborn defect and watch for tumor formation closely.
+
+Fortunately, the treatments using anti-estrogen agent or Herceptin can be effective to around 85% of the breast cancer patients. This improvement in cancer therapy is largely contributed to the effort to split the patients into different subgroups, then treat each subgroup on its own based on its distinct characteristics. That is the core of precision medicine. We will see how scientists implement this "splitting" in the next section as well.
+
+Note that the 5% of breast cancer with inherited defect in gene BRCA1 or BRCA2, are categoried as Triple Negative Breast Cancer (TNBC). This type of breast cancer does not express the genes for estrogen receptor (ER), progesterone receptor (PR) and HER2. And it is still in need of an effective treatment.
+
+To advance the field of precision medicine, current genomics and machine learning researchers need to address:
 
 - identifying genetic or molecular markers for clinical phenotypes
 - discovering disease subtypes from genetic and/or molecular data
@@ -94,6 +116,7 @@ Su-In Lee, an Associate Professor at Paul G. Allen School of Computer Science & 
 2. Su-In Lee Lab: https://suinlee.cs.washington.edu/research
 3. Su-In Lee: "Interpretable Machine Learning for Precision Medicine" https://youtu.be/La7KTIe2DeU
 4. Precisely practicing medicine with a trillion points of data. | Atul Butte | TEDxSanFrancisco https://www.youtube.com/watch?v=fbZZ_1Jbm6w
+5. Zhong, Sheng. BENG 183 lecture on precision medicine. https://docs.google.com/presentation/d/1VD0KbnLThYzqJ9eN6EWcOhd5i726QfYc8KnCt7bUhPM/edit#slide=id.g404a8c7ebe_0_517
 
 
 
