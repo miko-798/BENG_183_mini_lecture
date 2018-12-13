@@ -108,7 +108,14 @@ Su-In Lee, an Associate Professor at Paul G. Allen School of Computer Science & 
 ![su-in lee](https://github.com/miko-798/BENG_183_mini_lecture/blob/master/su-in%20lee.png)
 
 
-> These are both very interesting and cutting edge research efforts in the field of precision medicine. So what's next in precision medicine? Well, let's keep in mind the three things that scientists need to address (at the beginning of chapter), and that we all have the possibility of making what's next.
+These are both very interesting and cutting edge research efforts in the field of precision medicine. So what's next in precision medicine? Well, let's keep in mind the three things that scientists may want to address:
+
+- identifying genetic or molecular markers for clinical phenotypes
+- discovering disease subtypes from genetic and/or molecular data
+- building prediction models for clinical events based on electronic medical record (EMR) data
+
+Whether it be cancer vaccines or personalized drugs for a particular subtype of cancer, the biomedical research community will witness a growth in precision cancer care. We all have the potential to make what's next.
+
 
 
 ## References:
